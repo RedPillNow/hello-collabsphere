@@ -1,6 +1,6 @@
-# hello-engage Alexa Skill
+# hello-collabsphere Alexa Skill
 
-This is the hello-engage Alexa skill. It is meant to demonstrate surfacing data from Domino via Alexa. It is mainly meant to be used like a kiosk to ask about sessions occurring during Engage 2018 in Rotterdam.
+This is the hello-collabsphere Alexa skill. It is meant to demonstrate surfacing data from Domino via Alexa. It is mainly meant to be used like a kiosk to ask about sessions occurring during Collabsphere 2018.
 
 ## Usage
 
@@ -32,14 +32,6 @@ This performs a query on a Firebase Cloud Firestore database (See Relevant Links
 * show sessions by {AMAZON.Organization}
 * get sessions about {SessionName}
 
-### Deck
-
-Will inform person asking which deck a room is on
-
-* which deck is {AMAZON.Room} on
-* what deck is {AMAZON.Room} on
-* where is {AMAZON.Room}
-
 ### Help
 
 * some assistance please
@@ -53,6 +45,7 @@ Will inform person asking which deck a room is on
 
 Will deliver a random greeting, some even in other languages. Currently there are 7 greetings which are randomly chosen.
 
+* hola
 * hello
 * hello red pill
 * hello engage
@@ -139,15 +132,15 @@ The following node scripts are included in this project
 * `cleanCompilerFiles.js` - Deletes .js and .map files
 * `compileTs.js` - Compiles TypeScript based on `tsconfig.json`
 * `deploy.js` - Zips up and deploys files to `AWS Lambda`
-* `firestore-import.js` - Imports the `firebase-entries-import.json` file into `Firestore`. Uses `hello-engage-a735c55c95c7.json` for authentication. That file is the private/public key for a service account.
+* `firestore-import.js` - Imports the `firebase-entries-import.json` file into `Firestore`. Uses `hello-collabsphere-firebase-adminsdk-yrmee-7641a91fd2.json` for authentication. That file is the private/public key for a service account.
 * `sessions-parser.js <fieldToReturn> <outputFileName>` - Will scan each session from `firebase-entries-import`, look at the field passed in, remove all the stop words from the value of the field and create `SLOT` values for that field and dump them to the `outputFileName` or if no output file is defined to the console
 
 ## Relevant Links
 
 This skill uses AWS Lambda along with the Alexa Developer Console.
 
-* `hello-engage` [AWS Lambda Function](https://us-west-2.console.aws.amazon.com/lambda/home?region=us-west-2#/functions/hello-engage-alexa-skill?tab=graph)
-* `hello-engage` [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask/build/custom/amzn1.ask.skill.70a2dcc9-453d-4786-979d-3231c79d76dc/development/en_US/dashboard)
-* AWS Lambda ARN: `arn:aws:lambda:us-west-2:215532694292:function:hello-engage-alexa-skill`
-* Alexa App ID: `amzn1.ask.skill.70a2dcc9-453d-4786-979d-3231c79d76dc`
-* `firebase cloud firestore` [hello-engage-69ff8](https://console.firebase.google.com/u/1/project/hello-engage-69ff8/overview)
+* `hello-collabsphere` [AWS Lambda Function](https://us-west-2.console.aws.amazon.com/lambda/home?region=us-west-2#/functions/hello-collabsphere-alexa-skill?tab=graph)
+* `hello-collabsphere` [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask/build/custom/amzn1.ask.skill.0fb54054-65ba-4dce-a422-78dfff70039f/development/en_US/dashboard)
+* AWS Lambda ARN: `arn:aws:lambda:us-west-2:215532694292:function:hello-collabsphere-alexa-skill`
+* Alexa App ID: `amzn1.ask.skill.0fb54054-65ba-4dce-a422-78dfff70039f`
+* `firebase cloud firestore` [hello-collabsphere](https://console.firebase.google.com/u/1/project/hello-collabsphere/overview)
