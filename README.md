@@ -143,4 +143,4 @@ This skill uses AWS Lambda along with the Alexa Developer Console.
 * `hello-collabsphere` [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask/build/custom/amzn1.ask.skill.0fb54054-65ba-4dce-a422-78dfff70039f/development/en_US/dashboard)
 * AWS Lambda ARN: `arn:aws:lambda:us-west-2:215532694292:function:hello-collabsphere-alexa-skill`
 * Alexa App ID: `amzn1.ask.skill.0fb54054-65ba-4dce-a422-78dfff70039f`
-* `firebase cloud firestore` [hello-collabsphere](https://console.firebase.google.com/u/1/project/hello-collabsphere/overview)
+* `firebase cloud firestore` [hello-collabsphere](https://console.firebase.google.com/u/0/project/hello-collabsphere/overview)
