@@ -1,0 +1,42 @@
+{
+  "name": "hello-domino-ts",
+  "version": "1.0.0",
+  "description": "hello domino alexa skill using typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump:major": "node -e 'require(\"./tools/bump-version\").bump(\"major\")'",
+    "bump:minor": "node -e 'require(\"./tools/bump-version\").bump(\"minor\")'",
+    "bump:patch": "node -e 'require(\"./tools/bump-version\").bump(\"patch\")'",
+    "clean-js": "node -e 'require(\"./tools/cleanCompilerFiles\").findFiles(\"src\",{pattern: [\".js\",\".map\"], test: false})'",
+    "compile": "npm run clean-js && node -e 'require(\"./tools/compileTs\").compile(\"tsconfig.json\")'",
+    "deploy": "npm run compile && node tools/deploy.js"
+  },
+  "author": "Keith Strickland <keith@redpillnow.com>",
+  "license": "ISC",
+  "devDependencies": {
+	"@types/alexa-sdk": "^1.1.1",
+	"@types/mocha": "^5.2.0",
+    "@types/sinon": "^4.3.1",
+    "@types/sinon-chai": "^2.7.29",
+    "archiver": "^2.1.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chalk": "^2.4.0",
+    "firebase-admin": "^5.12.0",
+    "fs-extra": "^5.0.0",
+    "mocha": "^5.1.1",
+    "replace": "^0.3.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.8.3"
+},
+"dependencies": {
+	"ask-sdk": "^2.0.0",
+    "ask-sdk-core": "^2.0.1",
+    "ask-sdk-model": "^1.0.1",
+    "moment": "^2.22.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+	"stopwords": "0.0.9"
+  }
+}

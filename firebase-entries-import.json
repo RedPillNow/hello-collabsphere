@@ -1,0 +1,3182 @@
+[
+	{
+		"@position": "1",
+		"@unid": "C19FEFA9B0DAAF87862582A900620D68",
+		"@noteid": "9EE",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180501"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T180000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T184500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE118"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE118 - What About The APPS? A Domino App Modernisation Story (CANCELLED)"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Jared Roberts"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "We are at an applications crossroad\u0021\nWith so many platforms available, with so many SaaS solutions that are challenging business processes and reducing costs, with almost endless flexibility for Cloud/On Premise/Hybrid infrastructure - how do our long-standing, ever reliable Domino apps stack up?\nUsers want visual, intuitive, fast and productive apps delivered anywhere with mobility and design at the core of the experience. It is not enough to ‘stick a web front end on a Domino app’, users want consumer app experiences at work - with all the security, flexibility and functionality expected from today’s standards.\nIn this session - let’s talk about some ways in which you can modernise, integrate and transform your Domino apps using modern frameworks and infrastructure such as NodeJS, BlueMix, Kubernetes and Docker, and discuss the importance of using data and analytics as a basis for any Domino application transformation project."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "C19FEFA9B0DAAF87862582A900620D68"
+				}
+			}
+		]
+	},
+	{
+		"@position": "2",
+		"@unid": "9B8BD382F7CC7374862582B200082D00",
+		"@noteid": "B2A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T090000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T120000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE114"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE114 - Take 5 Modernization Workshop"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Peter Presnell"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Bob Kadrie"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Interested in modernizing your Notes applications but fresh out of silver bullets and magic buttons? If so, join us for an action-packed fun-filled workshop in which we will explore together some of the key ideas and processes needed for a successful modernization project at your company. We will be making use of Design Thinking throughout the workshop, starting with a conversation about the importance of establishing a modernization strategy. We will then look at how tools such as Application insights and TeamWorkr Analytics can be used to build a distinct strategy for each application. Next we look at options for reducing the cost of the modernization using tools such as aveedo, PickAform, Red Pill DIG, Sapho, SWING Seascape, TeamWorkr, and Webinizer. The workshop will conclude with an important discussion about the things every company should already be doing to prepare for a modernization project before we give away a number of great prizes to attendees. "
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "9B8BD382F7CC7374862582B200082D00"
+				}
+			}
+		]
+	},
+	{
+		"@position": "3",
+		"@unid": "0105C0ED956ABFED862582B200091130",
+		"@noteid": "B36",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T090000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T120000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "IS110"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Infrastructure and Integration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "IS110 - Plotting a path forward for your IBM Collaboration landscape can be challenging\u0021 "
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Francie Tanner"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Terri Warren"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Join us to learn how the brand new version of ApplicationInsights, DataMiner and other panagenda solutions can provide a cohesive way to get start your collaboration landscape transformation\u0021\nFind out how your very own data gets turned into easy-to-understand dashboards that show current application usage, business value and transformation roadblocks so you can decide on what should be archived, migrated, rewritten or modernized.\nLearn about our new OfficeExpert solution and what you need to do to get ready for Notes 10\u0021"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#B9DBB9"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "0105C0ED956ABFED862582B200091130"
+				}
+			}
+		]
+	},
+	{
+		"@position": "4",
+		"@unid": "36AD72B56A19E71A862582A90061DC6F",
+		"@noteid": "962",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T130000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T134500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE103"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE103 - Count Down to Domino 2025 - Preparing for the NOW"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Devin Olson"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Mike McGarel"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "With Domino 10 scheduled for release later this year, and both IBM and HCL executing their vision for Domino beyond 2025, it's time to start thinking about the opportunities that exist for all those Domino applications built years ago. In this session IBM Champions,  former co-workers, and pair-programming proponents Devin Olson and Mike McGarel will join forces once again to provide a list of practical tips, techniques, and actions that you can apply to your Domino environment to better prepare your applications for what lies ahead. There has never been a better time to apply care and attention to those applications that have served us so well."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "36AD72B56A19E71A862582A90061DC6F"
+				}
+			}
+		]
+	},
+	{
+		"@position": "5",
+		"@unid": "D4E863A4551D7A49862582A90062002F",
+		"@noteid": "96A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T130000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T134500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "CO106"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Collaboration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "CO106 - The History of Notes/Domino and the Events that Shaped us"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Viktor Krantz"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "With Domino 10 just around the corner – and the promise of new releases planned through 2025 and beyond, it's time take a walk down memory lane and look at the rich history of the Notes/Domino family. We will start with the origins of the product, and work our way forward through all the major release, Lotusphere, and all the other many cool and innovative things that that have been going on around us over the past 29 years. We might even have a few sneak peeks at what is to yet come\u0021 Please bring (or wear) your own favorite piece of Lotus memorabilia, as a prize will be awarded for the best of show\u0021"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#DB9395"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "D4E863A4551D7A49862582A90062002F"
+				}
+			}
+		]
+	},
+	{
+		"@position": "6",
+		"@unid": "F81F029AEFD86D68862582A900620D8F",
+		"@noteid": "A06",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T130000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T134500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "UE103"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "User Experience"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "UE103 - Why Delight is simply NOT OPTIONAL in application user experiences"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Ellen Feaheny"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Delight in UX is extremely easy to recognize, but for some reason, it seems that app devs across the world and industry fail at it more often than succeed. Why is this? It seems like such an obvious deliverable? Why is delight so hard to achieve, consistently? \n\nIn this session, we will review the criticality of delight in apps development, as well as the pitfalls of not caring about it. Great software delights - it's really that simple. And when software delights, it succeeds. Let's review tricks to keep diligent to \"delight\" as a foremost dev priority, and to encourage you to set a personal bar and standard for no less. "
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#459ac1"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "F81F029AEFD86D68862582A900620D8F"
+				}
+			}
+		]
+	},
+	{
+		"@position": "7",
+		"@unid": "7ECC367CB1424AE2862582A900620CF7",
+		"@noteid": "9A2",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T130000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T134500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "MS101"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Messaging"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "MS101 - An Introduction To The DMARC SMTP Validation Requirements"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Gabriella Davis"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "DMARC is a SMTP security standard being increasingly requested by customers to protect against email spoofing. It uses a combination of SPF (Sender Policy Framework) records and DKIM (DomainKeys Identified Mail). Using DMARC you would publicly specify how your outbound mail is sent and the receiving server would verify that the mail it receives matches your requirements. In this session we’ll discuss DMARC deployments and what to do if your mail server (like IBM Domino or SmartCloud) does not yet support DKIM?"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#8a6d3b"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "7ECC367CB1424AE2862582A900620CF7"
+				}
+			}
+		]
+	},
+	{
+		"@position": "8",
+		"@unid": "2599A9A74A9FE80C862582A900620D23",
+		"@noteid": "9C2",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T140000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T144500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "MS102"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Messaging"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "MS102 - Best practises for deploying Verse on Premise (VoP)"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Tim Clark"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "IBM's local edition of Verse for email is hitting many enterprises. If you have not yet tried this out for yourself, then come and find out just how easy it is.\nLearn the tips and tricks that go into a successful deployment with a hands-on demo of the places to look out for and the finished product.\nWe'll also show the integrations with Connections Files, Profiles and Box."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#8a6d3b"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "2599A9A74A9FE80C862582A900620D23"
+				}
+			}
+		]
+	},
+	{
+		"@position": "9",
+		"@unid": "8C539F6AAB337695862582A900620D44",
+		"@noteid": "9D6",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T140000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T144500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "SC102"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Security and Compliance"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "SC102 - Do you have a website? What do you need to know to avoid being sued."
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Roy Rumaner"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Devin Olson"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Is your website accessible to the visually impaired? The laws have changed dramatically over the years regarding all types of accessibility including visual, sound, and video. So, what do you need to know to make sure you comply with the new laws and more importantly, why should you care? This presentation will explain the laws as they apply to you and your organizations. We will also be discussing the different levels of accessibility and the standards you need to attain to certify your site. You can no longer claim you didn't know what you had to do to prevent it from happening to you. We will tell you what you need to know to ensure that you and your organization are protected from potential lawsuits. \n"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#245269"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "8C539F6AAB337695862582A900620D44"
+				}
+			}
+		]
+	},
+	{
+		"@position": "10",
+		"@unid": "8EAE129770A6433D862582A900620CED",
+		"@noteid": "99A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T140000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T144500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE117"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE117 - Using Connections Customizer to kick things up a notch\u0021"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Scott Good"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Customizer is a new capability in IBM Connections that lets developers inject JavaScript and CSS into Connections pages. While that sounds simple, the results are amazing, making it possible to make significant changes to the UI, to add and remove components from the page, to change the behavior of elements already on the page, and much more. In this session we'll talk about exactly what Customizer is, what it can do, and why you probably need it. Along the way we'll have plenty of live demos of Customizer in action."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "8EAE129770A6433D862582A900620CED"
+				}
+			}
+		]
+	},
+	{
+		"@position": "11",
+		"@unid": "FFDAC50B9B39DCE7862582A900620D37",
+		"@noteid": "9CE",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T150000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T154500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "IS109"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Infrastructure and Integration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "IS109 - Optimizing the Domino web server"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Heather Hottenstein"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "As many organizations look to reduce software footprints on user workstations, transitioning to iNotes/Verse on Premise for email and modernizing Domino applications to be primarily used by web browser clients has become the forward direction.  However, configuring a Domino web server is different than setting up one used by mostly Notes clients.  This session will discuss how to leverage the available options to ensure your Domino servers offer peak performance in order to avoid web browser time outs and end user frustration.  Also, Domino web security tactics and best practices will be reviewed in order to ensure data integrity."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#B9DBB9"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "FFDAC50B9B39DCE7862582A900620D37"
+				}
+			}
+		]
+	},
+	{
+		"@position": "12",
+		"@unid": "BFBD6AEA313679E3862582A900620DA4",
+		"@noteid": "A16",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T150000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T154500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "IS106"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Infrastructure and Integration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "IS106 - DIY: How to build your SmartCloud Notes Hybrid environment. Easy as 1-2-3"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "David Hablewitz"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "This session will cover everything you need to know to build your SmartCloud Notes / Connections Cloud hybrid environment.  Getting it right the first time will save headaches and lengthy rebuild time later.  Also learn some of the pitfalls and best practices that will make your move the cloud smooth and seamless and how to implement it using the just-announced Domino Applications on Cloud service (DAC) and move ALL of your Domino infrastructure to the cloud.\n"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#B9DBB9"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "BFBD6AEA313679E3862582A900620DA4"
+				}
+			}
+		]
+	},
+	{
+		"@position": "13",
+		"@unid": "46380D873FE3FA1E862582A900620D2C",
+		"@noteid": "9CA",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T153000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T155000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "SC101"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Security and Compliance"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "SC101 - Beyond Domino Security - Tools and Techniques"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Darren Duke"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "If you manage more than web servers then you have more than web servers to worry about.  Learn about the tools and techniques (some open source, some not) that STS uses to uncover security issues both within the Domino environment and without.  Session will include but is not limited to:  network, PCs, servers, VMware, backup and recovery, etc.\n\n"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#245269"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "46380D873FE3FA1E862582A900620D2C"
+				}
+			}
+		]
+	},
+	{
+		"@position": "14",
+		"@unid": "BA3093021E2F2778862582A90062003A",
+		"@noteid": "972",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T160000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T164500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "CO102"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Collaboration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "CO102 - Driving Faster Resolution of Business Problems using IBM Watson Workspace"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Kirti Gani"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "IBM Watson Workspace is the new intelligent way for teams to engage and get business results fast. Come and see how the latest capabilities including Watson AI capabilities, video meetings and new custom templates API's can help you and your teams create spaces specifically targeted to support the resolution of business issues collaboratively. We will also preview the roadmap for Watson Workspace, including integration with IBM collaboration and other products."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#DB9395"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "BA3093021E2F2778862582A90062003A"
+				}
+			}
+		]
+	},
+	{
+		"@position": "15",
+		"@unid": "CAE88626D8FEA40C862582A900620CDA",
+		"@noteid": "98E",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T160000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T164500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE107"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE107 - Get in the Flow: Intro to Node-RED and Low-Code Development"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Christopher Hiller"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Node-RED is a flow-based, event-driven, low-code programming environment and runtime.  Aimed squarely at technically-inclined users—but not necessarily software engineers—Node-RED offers a unique balance of power and ease-of-use.  Its flowchart-like editor excels at connecting a diverse set of systems, applications, microservices, APIs, and databases.  Built with Node.js, Node-RED’s event-driven architecture integrates naturally with messaging queues, IoT platforms and connected devices.  It’s not just a useful tool—it’s the whole toolbox.\n\nIn this presentation, I’ll introduce you to Node-RED with straightforward examples.  You’ll learn how to get Node-RED running in the cloud, navigate its user interface, and create your own programs (“flows”).  You’ll discover how to use Node-RED to monitor a site feed and automatically tweet links to new content.  Finally, I’ll show you how to find and use modules (“Nodes”) from Node-RED’s thriving ecosystem, and tie it all together with IBM Cloud and Watson services.\n"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "CAE88626D8FEA40C862582A900620CDA"
+				}
+			}
+		]
+	},
+	{
+		"@position": "16",
+		"@unid": "79878134861E8510862582B20006F884",
+		"@noteid": "B22",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T160000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T164500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "RT101"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Collaboration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "RT101 - Roundtable - IBM Business Partners"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Alan Hamilton"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Libby Ingrassia"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": ""
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#DB9395"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "79878134861E8510862582B20006F884"
+				}
+			}
+		]
+	},
+	{
+		"@position": "17",
+		"@unid": "937E246A352523B4862582A900620D73",
+		"@noteid": "9F6",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T160000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T164500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "SC104"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Security and Compliance"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "SC104 - Domino security in a GDPR world"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Tim Clark"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "The fines for EU General Data Protection Regulation (GDPR) came into force on the 25th of May 2018. \nThink it doesn’t affect you?  It affects those providing products or services to EU customers, and to those who process and hold  their data.\nGDPR is not just about securing data, data management, the justification for keeping it, and how it can be removed is all part of the bigger GDPR picture. \nWe will walk you through a scenario explaining the guiding principles of  GDPR, how it may affect your organisation,  how you can secure your Domino environment to comply with the regulations – without it being as boring as watching paint dry.\n"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#245269"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "937E246A352523B4862582A900620D73"
+				}
+			}
+		]
+	},
+	{
+		"@position": "18",
+		"@unid": "C2A362B49DB63B46862582A900620D14",
+		"@noteid": "9B6",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T170000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T190000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "UE102"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "User Experience"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "UE102 - What Do I Need To Do To Ensure My Website is Accessible To The Visually Challenged"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Roy Rumaner"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Bob Kadrie"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "You've spent months designing the perfect website. You have everything exactly where you want it on the screen, everything is color-coordinated and it has finally been approved by management. You are now ready to release it to your users. What did you forget to do? Remember, the law says your websites have to be accessible to the visually impaired or you open your company up to expensive lawsuits. Do it right the first time and be the hero. \n\nSo what do you need to do? Well, you are going to have to go back and add additional coding to your UI (pages, forms, fields, etc.) to ensure that a user with a screen reader is capable of navigating and entering data onto your page. But that might not be all you have to do. You may also have to redesign parts of your forms to allow the non-sighted (or color blind) to navigate like your sighted users. We will be covering these issues and we will be teaching you how to redevelop a website that is not accessible into one that is. Everything you need to know to get started will be covered in this workshop. Bring your laptop. We will be supplying a website for you to redesign. \n"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#459ac1"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "C2A362B49DB63B46862582A900620D14"
+				}
+			}
+		]
+	},
+	{
+		"@position": "19",
+		"@unid": "F5A06C4105D55D4E862582A900620CD4",
+		"@noteid": "98A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T170000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T174500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE112"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE112 - React(.js) the Domino Way - High-Performance Client for Domino"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Knut Herrmann"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Developers around the globe are excited about Facebook's React.js, a JavaScript library for building high performance user interfaces. Websites like Instagram, Airbnb and Netflix are powered by React. This session will examine the library’s main concepts like virtual DOM, JavaScript extension JSX and unidirectional data flow. It will explain how to build a single page application and why React code is easy to write and maintain. React is a perfect match for Domino. Let's explore a working examples that combines an optimal client development environment with npm, Babel, ESLint and Webpack with the power of Domino as database and application server."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "F5A06C4105D55D4E862582A900620CD4"
+				}
+			}
+		]
+	},
+	{
+		"@position": "20",
+		"@unid": "94EA49D4C3620BAF862582A900620D9E",
+		"@noteid": "A12",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T170000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T172000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE105"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE105 - Earning the Respect of the Developers You Manage"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Bill Malchisky"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Join IBM Champion Bill Malchisky's premier DevOps chat at CollabSphere, focusing on improving intra-team coherence. When responsible for development resources, extending further one's management skills helps earn their respect while leading the team together in a positive direction. We will review some proven techniques to better work with your team, with use cases, and address your respective management challenges. Let us learn from each other in Ann Arbor."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "94EA49D4C3620BAF862582A900620D9E"
+				}
+			}
+		]
+	},
+	{
+		"@position": "21",
+		"@unid": "E96D71A3B37782CD862582A900620D1A",
+		"@noteid": "9BA",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T170000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T174500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "IS104"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Infrastructure and Integration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "IS104 - Canal Barge Company adoption update of Connections, Verse, Watson Workspace, Notes app modernization and more\u0021"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Kerry Godbold"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Slobodan Lohja"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Kerry and Slobodan will provide insights into CBC's adoption of Connections, Verse and the pilot of Watson Workspace. They'll also discuss the status of their cloud mail migrations from their OnPremise Domino 9 server as well as the migration of shared mail .nsfs to the IBM cloud. They'll explain their preparation for and execution of the CBC App Modernization project which included steps taken to analyze the many Notes apps on their on-premise Domino server and identify candidates for XPage modernization / containerization in the cloud and also identify other apps could be retired. They'll also touch on work completed for an employee Question and Answer bot created in Bluemix. "
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#B9DBB9"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "E96D71A3B37782CD862582A900620D1A"
+				}
+			}
+		]
+	},
+	{
+		"@position": "22",
+		"@unid": "285C263866547488862582BC00657618",
+		"@noteid": "B82",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T180000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T184500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE120"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE120 - Automated UI Testing "
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Slobodan Lohja"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Come to this session to learn how to get started with automate UI testing your website.  A little work up front can save you hours and a better chance for quality releases, especially if you are adopting some type of agile methodology to roll out changes in iterations.  Using Selenium, it does not matter what back end technology was used to create the website.  Selenium supports testing multiple browsers.   "
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "285C263866547488862582BC00657618"
+				}
+			}
+		]
+	},
+	{
+		"@position": "23",
+		"@unid": "55967297BCB3401A862582AD001AC714",
+		"@noteid": "A52",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T180000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T184500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "RT102"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Collaboration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "RT102 - Roundtable - IBM Champions"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Alan Hamilton"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": "Libby Ingrassia"
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": ""
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#DB9395"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "55967297BCB3401A862582AD001AC714"
+				}
+			}
+		]
+	},
+	{
+		"@position": "24",
+		"@unid": "3BAA998FA1E30716862582AB005BAC17",
+		"@noteid": "A3E",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T180000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit II"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T184500,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "IS115"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Infrastructure and Integration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "IS115 - When management says you have to migrate apps off of Domino"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Jamie Magee"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "With HCL's acquisition of of Notes/Domino, there is a renewed investment in the platform, and it remains a superior server for most types of collaborative applications. Nonetheless, some organizations are unfortunately forcing the removal of Notes and/or Domino due to political, budget/consolidation, or other reasons. What are your options, and what are the costs and expectations of each? This session begins with analysis tools for discovering what applications are used in your environment and which designs will be most challenging to implement outside of Domino, including Panagenda, TeamStudio, Quest, and Rivit. Then you'll survey the landscape of several options for tools and platforms to migrate your data and designs, including SharePoint & .NET, SalesForce, DOCOVA, LDC Via, Darwino, Google Apps, Structure4Notes and even some hybrid modernization techniques for migrating some elements of the Notes/Domino platform out of your organization while still using it. Differences and costs of these various approaches are compared for various types of Domino applications. This high level session does not delve into code, but includes detailed screenshots of each approach. You will be prepared for further evaluating the range of migration options for your own applications, including how to push back on management to keep certain types of applications in Domino."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#B9DBB9"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "3BAA998FA1E30716862582AB005BAC17"
+				}
+			}
+		]
+	},
+	{
+		"@position": "25",
+		"@unid": "11BBE00F6837A239862582B3001B60BC",
+		"@noteid": "B4A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T190000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Michigan Room"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T210000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": ""
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Others"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "CollabSphere 2018 Exhibitor Showcase Reception"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Join us for the drinks and hors d'oeuvre at the Michigan Room for opening of the CollabSphere 2018 Exhibitor Showcase. Special thanks to HADSL for sponsoring the beer."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#ffe349"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "MichiganRoom"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "11BBE00F6837A239862582B3001B60BC"
+				}
+			}
+		]
+	},
+	{
+		"@position": "26",
+		"@unid": "373AEA73379811D8862582A900620D0A",
+		"@noteid": "9AE",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"text": {
+					"0": "2:00:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"text": {
+					"0": "2:45:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE119"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE119 - What is Node.js"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Tim Davis"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Domino v10 development will bring us Node.js integration in the form of the “NERD” stack - Node, Express, React and Domino.  Using Node and React programming skills developers will be able to access Domino data via a Domino module running under Node.  BUT WHAT IS NODE? In this session Tim will explain what Node is, how to work with it, and how Domino developers will be be able to take advantage of this new platform."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "373AEA73379811D8862582A900620D0A"
+				}
+			}
+		]
+	},
+	{
+		"@position": "27",
+		"@unid": "67EF5C2D82E527CC862582A900620CDE",
+		"@noteid": "992",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"text": {
+					"0": "3:00:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Grande III"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"text": {
+					"0": "3:45:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "DE116"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "DevOps"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "DE116 - Two Minutes To Learn, A Lifetime to Master - Agile Scrum for Collaboration Projects"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Kathy Brown"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "One of the co-founders of scrum has said it takes “two minutes to learn, but a lifetime to master”.  In this session, Kathy will cover what Agile Scrum actually IS and how you can benefit from using it in your projects.  She’ll cover the basic concepts (duration will be slightly longer than two minutes).  She will also show you how to avoid common Agile nightmares.  Kathy will compare Agile to other project management techniques and demonstrate why Agile is better for you, your stakeholders, your boss, and ultimately your end users.  Kathy promises the session will be shorter than the average lifetime in duration."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#347044"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#FFFFFF"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "GrandeIII"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "67EF5C2D82E527CC862582A900620CDE"
+				}
+			}
+		]
+	},
+	{
+		"@position": "28",
+		"@unid": "147D58477080BFB5862582A900620048",
+		"@noteid": "97E",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"text": {
+					"0": "3:00:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"text": {
+					"0": "3:20:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "CO103"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Collaboration"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "CO103 - It's Showtime\u0021"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Bob Kadrie"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "\n\nHave you been thinking about starting a blog, podcast or YouTube show? Do you already have one, and would like some advice regarding your content, or how to grow your audience? Before joining Red Pill Now as Chief Creative Officer, Bob Kadrie led one of Atlanta's most successful online brand and marketing agencies, advising his clients on just such matters while providing millions of highly targeted, online impressions. We'll only have 20 minutes to chat, so come ready with your questions, and open mind. Since time for this session is so limited, feel free to send your questions, examples, links and ideas to bob@redpillnow.com in advance, and we'll see what we can accomplish together in this 20 minute chat."
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#DB9395"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "147D58477080BFB5862582A900620048"
+				}
+			}
+		]
+	},
+	{
+		"@position": "29",
+		"@unid": "6A10AD3DC2DCC28C862582A9006178A9",
+		"@noteid": "95A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180723"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"text": {
+					"0": "5:30:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Petit I"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"text": {
+					"0": "5:50:00 PM"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": "AN101"
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Analytics"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "AN101 - Analytics Software - SPSS Modeler, RapidMiner, Python and R - What's the Difference?"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": "Eugen Tarnow"
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "If your organization is ready to do your own analytics, what software should you choose? \n\nI will demo five systems: SPSS Modeler, RapidMiner, Python, R, and Watson Analytics, so that you can make an informed choice.  I will show you the importance of the UI and why free software can be great and yet not user friendly. "
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#d1774d"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "PetitI"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "6A10AD3DC2DCC28C862582A9006178A9"
+				}
+			}
+		]
+	},
+	{
+		"@position": "30",
+		"@unid": "86F3AC9A4F74FA8F862582B3001DA373",
+		"@noteid": "B6A",
+		"@siblings": "84",
+		"entrydata": [
+			{
+				"@columnnumber": "0",
+				"@name": "StartDate",
+				"datetime": {
+					"0": "20180724"
+				}
+			},
+			{
+				"@columnnumber": "1",
+				"@name": "StartTime",
+				"datetime": {
+					"0": "T080000,00"
+				}
+			},
+			{
+				"@columnnumber": "2",
+				"@name": "SessionRoom",
+				"text": {
+					"0": "Michigan Room"
+				}
+			},
+			{
+				"@columnnumber": "3",
+				"@name": "EndTime",
+				"datetime": {
+					"0": "T090000,00"
+				}
+			},
+			{
+				"@columnnumber": "4",
+				"@name": "SessionID",
+				"text": {
+					"0": ""
+				}
+			},
+			{
+				"@columnnumber": "5",
+				"@name": "SessionTrack",
+				"text": {
+					"0": "Others"
+				}
+			},
+			{
+				"@columnnumber": "6",
+				"@name": "AbstractTitle",
+				"text": {
+					"0": "Breakfast"
+				}
+			},
+			{
+				"@columnnumber": "7",
+				"@name": "Speaker1",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "8",
+				"@name": "Speaker2",
+				"text": {
+					"0": " "
+				}
+			},
+			{
+				"@columnnumber": "9",
+				"@name": "SessionText",
+				"text": {
+					"0": "Join us for continental breakfast"
+				}
+			},
+			{
+				"@columnnumber": "10",
+				"@name": "BackgroundColor",
+				"text": {
+					"0": "#b9bfb5"
+				}
+			},
+			{
+				"@columnnumber": "11",
+				"@name": "TextColor",
+				"text": {
+					"0": "#000000"
+				}
+			},
+			{
+				"@columnnumber": "12",
+				"@name": "Room",
+				"text": {
+					"0": "MichiganRoom"
+				}
+			},
+			{
+				"@columnnumber": "13",
+				"@name": "DocUNID",
+				"text": {
+					"0": "86F3AC9A4F74FA8F862582B3001DA373"
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,1325 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "lotus",
+            "intents": [
+                {
+                    "name": "GeneralGreetingIntent",
+                    "slots": [],
+                    "samples": [
+						"hola",
+                        "hello",
+                        "hello domino",
+                        "hello red pill",
+                        "hello lotus domino",
+                        "hello engage",
+                        "greetings",
+                        "howdy",
+                        "howdy Red Pill",
+                        "hey",
+                        "what's up",
+                        "what's happening"
+                    ]
+                },
+                {
+                    "name": "SessionsIntent",
+                    "slots": [
+                        {
+                            "name": "AMAZON.TIME",
+                            "type": "AMAZON.TIME"
+                        },
+                        {
+                            "name": "AMAZON.Person",
+                            "type": "AMAZON.Person"
+                        },
+                        {
+                            "name": "AMAZON.Room",
+                            "type": "AMAZON.Room"
+                        },
+                        {
+                            "name": "SessionName",
+                            "type": "SessionName"
+                        },
+                        {
+                            "name": "AMAZON.Organization",
+                            "type": "AMAZON.Organization"
+                        }
+                    ],
+                    "samples": [
+                        "get sessions about {SessionName}",
+                        "for {AMAZON.TIME} sessions",
+                        "for sessions by {AMAZON.Person}",
+                        "which sessions are up next",
+                        "what sessions are up next",
+                        "what are the upcoming sessions",
+                        "which sessions are upcoming",
+                        "get upcoming sessions",
+                        "get sessions happening at {AMAZON.TIME}",
+                        "show sessions happening at {AMAZON.TIME}",
+                        "which sessions are happening at {AMAZON.TIME}",
+                        "get sessions beginning at {AMAZON.TIME}",
+                        "show sessions beginning at {AMAZON.TIME}",
+                        "get sessions at {AMAZON.TIME}",
+                        "show sessions at {AMAZON.TIME}",
+                        "get sessions by {AMAZON.Person}",
+                        "show sessions by {AMAZON.Person}",
+                        "get upcoming sessions in the {AMAZON.Room}",
+                        "which sessions are next in {AMAZON.Room}",
+                        "which session is in {AMAZON.Room}",
+                        "get sessions in {AMAZON.Room}",
+                        "show sessions in {AMAZON.Room}",
+                        "get the room name for {SessionName}",
+                        "find the room name for {SessionName}",
+                        "show the room name for {SessionName}",
+                        "get the {AMAZON.TIME} sessions",
+                        "what time is the {SessionName} session",
+                        "when does {SessionName} start",
+                        "who is speaking at {SessionName}",
+                        "who is speaking next in the {AMAZON.Room} room",
+                        "what is {SessionName} about",
+                        "when is {AMAZON.Person} speaking",
+                        "when is the {SessionName} session",
+                        "get sessions by {AMAZON.Organization}",
+                        "show sessions by {AMAZON.Organization}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "some assistance please",
+                        "I need help",
+                        "How do I use this",
+                        "I need some help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Thank You",
+                        "Thanks",
+                        "Bye",
+						"Goodbye",
+						"Adios"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "repeat",
+                        "say that again",
+                        "what did you say",
+                        "repeat that",
+                        "say again"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "negative",
+                        "that's not it",
+                        "nope",
+                        "not this one",
+                        "not that one",
+                        "No"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "affirmative",
+                        "that's the one",
+                        "Yup that's it",
+                        "Yes that's it",
+                        "OK",
+                        "Yup",
+                        "Yes"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "SessionName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "panagenda: IBM Domino Application Transformation Jumpstart",
+                                "synonyms": [
+                                    "domino",
+                                    "application",
+                                    "transformation",
+                                    "jumpstart"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Red Pill Now: Take 5: Modernization Workshop",
+                                "synonyms": [
+                                    "red",
+                                    "pill",
+                                    "modernization",
+                                    "workshop"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AppFusions: A modern solution to start your digital transformation journey",
+                                "synonyms": [
+                                    "appfusions",
+                                    "modern",
+                                    "solution",
+                                    "start",
+                                    "digital",
+                                    "journey"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Keynote and Opening General Session",
+                                "synonyms": [
+                                    "keynote",
+                                    "opening",
+                                    "general",
+                                    "session"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Warp-Speed Sponsoring",
+                                "synonyms": [
+                                    "warp speed sponsoring",
+                                    "warpspeed",
+                                    "sponsoring"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Champions Meetup with Bob and Richard",
+                                "synonyms": [
+                                    "champions",
+                                    "meetup",
+                                    "bob",
+                                    "richard"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Best Practices: Domino and the Cloud",
+                                "synonyms": [
+                                    "practices",
+                                    "cloud"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Power of Social Media Analytics: from data to story",
+                                "synonyms": [
+                                    "power",
+                                    "social",
+                                    "media",
+                                    "analytics",
+                                    "data",
+                                    "story"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fit for summer! Use your IBM Collaboration tools smarter to make your work less stressful",
+                                "synonyms": [
+                                    "fit",
+                                    "summer",
+                                    "collaboration",
+                                    "tools",
+                                    "smarter",
+                                    "work",
+                                    "stressful"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Connections REST-API Klompendans",
+                                "synonyms": [
+                                    "connections",
+                                    "restapi",
+                                    "klompendans"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Watson Workspace",
+                                "synonyms": [
+                                    "watson",
+                                    "workspace"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Become a User Experience (UX) Expert in Five Easy Steps",
+                                "synonyms": [
+                                    "user",
+                                    "experience",
+                                    "ux",
+                                    "expert",
+                                    "easy",
+                                    "steps"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Engage Idol: The Candidates",
+                                "synonyms": [
+                                    "engage",
+                                    "idol",
+                                    "candidates"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "An introduction to configuring Domino for docker",
+                                "synonyms": [
+                                    "introduction",
+                                    "configuring",
+                                    "docker"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Using IBM Watson to extract information and classify documents at the Dutch Tax and Customs Administration",
+                                "synonyms": [
+                                    "extract",
+                                    "information",
+                                    "classify",
+                                    "documents",
+                                    "dutch",
+                                    "tax",
+                                    "customs",
+                                    "administration"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GDPR: Three days to go: What you all need to know and what needs to be done",
+                                "synonyms": [
+                                    "gdpr",
+                                    "days"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Introduction to LoopBack",
+                                "synonyms": [
+                                    "loopback"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Domino App Dev",
+                                "synonyms": [
+                                    "app",
+                                    "dev"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ICS on Linux Roundtable",
+                                "synonyms": [
+                                    "ics",
+                                    "linux",
+                                    "roundtable"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Help create our roadmap! - Kudos is turning PINK!",
+                                "synonyms": [
+                                    "create",
+                                    "roadmap",
+                                    "kudos",
+                                    "turning",
+                                    "pink"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Community driven approach for content creation and customer support",
+                                "synonyms": [
+                                    "community",
+                                    "driven",
+                                    "approach",
+                                    "content",
+                                    "creation",
+                                    "customer",
+                                    "support"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "M is for Modernization",
+                                "synonyms": [
+                                    "dr. seuss"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HCL Collaborative Workplace Platform - Domino v10 the foundation",
+                                "synonyms": [
+                                    "hcl",
+                                    "collaborative",
+                                    "workplace",
+                                    "platform",
+                                    "foundation"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "10 for Domino 10: Top 10 Items from the #Domino2025 Jam’s",
+                                "synonyms": [
+                                    "top",
+                                    "items",
+                                    "jam’s"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The danger of Self Service Analytics",
+                                "synonyms": [
+                                    "danger",
+                                    "service"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Domino Top Secret: Domino Full stack app development !",
+                                "synonyms": [
+                                    "secret",
+                                    "full",
+                                    "stack",
+                                    "development"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "30 tips about IBM Verse",
+                                "synonyms": [
+                                    "tips",
+                                    "verse"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diving Deep Into the Grid",
+                                "synonyms": [
+                                    "diving",
+                                    "deep",
+                                    "grid"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Business Partner Roundtable",
+                                "synonyms": [
+                                    "business",
+                                    "partner"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GDPR - So Many Countries, So Many Fines ",
+                                "synonyms": [
+                                    "countries",
+                                    "fines"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Count Down to Domino 2025",
+                                "synonyms": [
+                                    "count"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Integrating the core silos – CRM and IBM Connections, leveraging existing IBM Notes installations",
+                                "synonyms": [
+                                    "integrating",
+                                    "core",
+                                    "silos",
+                                    "crm",
+                                    "leveraging",
+                                    "existing",
+                                    "notes",
+                                    "installations"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Domino Top Secret: Mobile Apps ",
+                                "synonyms": [
+                                    "mobile",
+                                    "apps"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Verse on Premises 10 Deep Dive",
+                                "synonyms": [
+                                    "premises",
+                                    "dive"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Visual story telling: the key to unlocking the data gold mine ",
+                                "synonyms": [
+                                    "visual",
+                                    "telling",
+                                    "key",
+                                    "unlocking",
+                                    "gold"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "How A German Bundesliga Soccer Club Uses Watson to Enhance Its Scouting",
+                                "synonyms": [
+                                    "german",
+                                    "bundesliga",
+                                    "soccer",
+                                    "club",
+                                    "enhance",
+                                    "scouting"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Spring forward: an introduction to Spring boot and Thymeleaf for (XPages) developers",
+                                "synonyms": [
+                                    "spring",
+                                    "spring",
+                                    "boot",
+                                    "thymeleaf",
+                                    "xpages",
+                                    "developers"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Connections"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AI, Ethics, and BEER: Challenges for the Next Decade of AI",
+                                "synonyms": [
+                                    "ai",
+                                    "ethics",
+                                    "beer",
+                                    "challenges",
+                                    "decade",
+                                    "ai"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Speed Sponsoring",
+                                "synonyms": [
+                                    "speed"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Notes and Domino Performance Boost - Reloaded",
+                                "synonyms": [
+                                    "performance",
+                                    "boost",
+                                    "reloaded"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Best practises for deploying Verse on Premise (VoP)",
+                                "synonyms": [
+                                    "practises",
+                                    "deploying",
+                                    "premise",
+                                    "vop"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "What’s the Story of Your Community Building Programme in Your Social Business Journey? ",
+                                "synonyms": [
+                                    "what’s",
+                                    "building",
+                                    "programme"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Building Integrated Apps for IBM Collaboration",
+                                "synonyms": [
+                                    "integrated"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Building an Engaged Employee Intranet with IBM Connection Engagement Center",
+                                "synonyms": [
+                                    "engaged",
+                                    "employee",
+                                    "intranet",
+                                    "connection",
+                                    "engagement",
+                                    "center"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "How to interconnect universities and high schools over the world with each other with IBM Connections",
+                                "synonyms": [
+                                    "interconnect",
+                                    "universities",
+                                    "high",
+                                    "schools",
+                                    "world"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "'Future of Work' - the roadmap is here!",
+                                "synonyms": [
+                                    "future"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pointing Fingers? DDM to the Rescue",
+                                "synonyms": [
+                                    "pointing",
+                                    "fingers",
+                                    "ddm",
+                                    "rescue"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM’s Business Analytics Lifecycle - you don't know, what you don't know...",
+                                "synonyms": [
+                                    "ibm’s",
+                                    "lifecycle"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Internet of (Notes) Things",
+                                "synonyms": [
+                                    "internet"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tips and Tricks: Domino and JavaScript Development Master Class",
+                                "synonyms": [
+                                    "tricks",
+                                    "javascript",
+                                    "master",
+                                    "class"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Notes Client & Designer",
+                                "synonyms": [
+                                    "client",
+                                    "designer"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Managing The Noise",
+                                "synonyms": [
+                                    "managing",
+                                    "noise"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "How healthy is your Enterprise Social Networking environment?",
+                                "synonyms": [
+                                    "healthy",
+                                    "enterprise",
+                                    "networking",
+                                    "environment"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AppFusions: Sustained, Secure, Scalable, Proven UX/Design Integrations for IBM Connections ... and Aloha",
+                                "synonyms": [
+                                    "sustained",
+                                    "secure",
+                                    "scalable",
+                                    "proven",
+                                    "ux/design",
+                                    "integrations",
+                                    "aloha"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OnTime Group Calendar – Catching Up on Essential OnTime Improvements",
+                                "synonyms": [
+                                    "ontime",
+                                    "group",
+                                    "calendar",
+                                    "catching",
+                                    "essential",
+                                    "ontime",
+                                    "improvements"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GroupWave Webinizer",
+                                "synonyms": [
+                                    "groupwave",
+                                    "webinizer"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Domino 10, Just the Beginning",
+                                "synonyms": [
+                                    "beginning"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "What About The APPS? The Domino App Modernisation Story",
+                                "synonyms": [
+                                    "modernisation"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Champions: Rock stars, advocates, and experts",
+                                "synonyms": [
+                                    "rock",
+                                    "stars",
+                                    "advocates",
+                                    "experts"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Leveraging Workspace Templates to Solve Your Business Problems",
+                                "synonyms": [
+                                    "templates",
+                                    "solve",
+                                    "problems"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Reusability is the goal!",
+                                "synonyms": [
+                                    "reusability",
+                                    "goal"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM Collaboration Framework Use Case Shoot Out",
+                                "synonyms": [
+                                    "framework",
+                                    "case",
+                                    "shoot"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Earning the Respect of the Developers You Manage",
+                                "synonyms": [
+                                    "earning",
+                                    "respect",
+                                    "manage"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The History of Notes/Domino and the Events that Shaped us",
+                                "synonyms": [
+                                    "history",
+                                    "notes/domino",
+                                    "events",
+                                    "shaped"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "#UserBLAST",
+                                "synonyms": [
+                                    "userblast"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cross-Platform Parallels: Understanding SharePoint (Online) Through Notes-colored glasses",
+                                "synonyms": [
+                                    "crossplatform",
+                                    "parallels",
+                                    "understanding",
+                                    "sharepoint",
+                                    "online",
+                                    "notescolored",
+                                    "glasses"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Data Renaissance and how everyone can benefit",
+                                "synonyms": [
+                                    "renaissance",
+                                    "benefit"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Get Up To Speed With IBM Connections Customizer",
+                                "synonyms": [
+                                    "customizer"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Next Generation Low Code",
+                                "synonyms": [
+                                    "generation",
+                                    "code"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Domino & Sametime",
+                                "synonyms": [
+                                    "sametime"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "XPages - The next journey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NSF the perfect store for your HTML 5 client",
+                                "synonyms": [
+                                    "nsf",
+                                    "perfect",
+                                    "store",
+                                    "html"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Whats New in Notes, Sametime and Designer in V10"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "​The Lazy Admin Wins the Game. A 'How To' guide",
+                                "synonyms": [
+                                    "​the",
+                                    "lazy",
+                                    "admin",
+                                    "wins",
+                                    "game",
+                                    "guide"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "A Domino R5 Application Upgrade Project: What Could Possibly Go Wrong?",
+                                "synonyms": [
+                                    "upgrade",
+                                    "project",
+                                    "possibly",
+                                    "wrong"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Electron - Cross Platform Desktop Applications Made Easy",
+                                "synonyms": [
+                                    "electron",
+                                    "cross",
+                                    "desktop",
+                                    "applications"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cloud Developer Experience-Connections & Work Services",
+                                "synonyms": [
+                                    "developer",
+                                    "experienceconnections",
+                                    "services"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Branding and Re-Branding Yourself",
+                                "synonyms": [
+                                    "branding",
+                                    "rebranding"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Freeman/Gary: Vision or Blinders",
+                                "synonyms": [
+                                    "freeman/gary",
+                                    "vision",
+                                    "blinders"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "How to Customize, Extend & Enhance IBM Connections Today!",
+                                "synonyms": [
+                                    "customize",
+                                    "extend",
+                                    "today"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Engage Idol: The 2 Winners",
+                                "synonyms": [
+                                    "winners"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Domino 10 - Coming TCO and Administration Improvements",
+                                "synonyms": [
+                                    "coming",
+                                    "tco"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Finding the Right Path for your IBM Domino Applications",
+                                "synonyms": [
+                                    "finding",
+                                    "path"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mobilise your Applications as Progressive Web Apps",
+                                "synonyms": [
+                                    "mobilise",
+                                    "progressive",
+                                    "web"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Verse: on Premises, Cloud and Mobile"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ICS Design Guide - Introduction and Walkthrough",
+                                "synonyms": [
+                                    "design",
+                                    "walkthrough"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Closing Session",
+                                "synonyms": [
+                                    "closing"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AMAZON.Person",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Devin Olson",
+                                "synonyms": [
+                                    "Devin Olsen",
+                                    "spanky",
+                                    "Devin Elson"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jason Roy Gary",
+                                "synonyms": [
+                                    "Jason Garey",
+                                    "Jason Gary"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nathan Freeman",
+                                "synonyms": [
+                                    "the n. t. f.",
+                                    "the ntf",
+                                    "ntf",
+                                    "freeman",
+                                    "n t f",
+                                    "the n t f"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peter Presnell",
+                                "synonyms": [
+                                    "Peter Prescott"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AMAZON.Organization",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "BCC Ltd",
+                                "synonyms": [
+                                    "b c c limited",
+                                    "b c c",
+                                    "B C C",
+                                    "B C C Limited"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Firm"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dan Notes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OpenNTF",
+                                "synonyms": [
+                                    "open n t f",
+                                    "open ntf",
+                                    "OpenNTF"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Docova"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Easi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Prominic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "e Office",
+                                "synonyms": [
+                                    "eOffice"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ytria Inc.",
+                                "synonyms": [
+                                    "y tria",
+                                    "ytria"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cyone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cross Ware",
+                                "synonyms": [
+                                    "CrossWare"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Riva CRM Integration",
+                                "synonyms": [
+                                    "riva c r m",
+                                    "riva"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Time to Act Group",
+                                "synonyms": [
+                                    "TimeToAct Group"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LDC Via",
+                                "synonyms": [
+                                    "l d c via",
+                                    "L D C"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Workplace On",
+                                "synonyms": [
+                                    "WorkplaceON"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HCL",
+                                "synonyms": [
+                                    "H C L"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GroupWave",
+                                "synonyms": [
+                                    "groupwave",
+                                    "group wave",
+                                    "GroupWave"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Silverside",
+                                "synonyms": [
+                                    "silver side"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OnTime Group Calendar",
+                                "synonyms": [
+                                    "on time group calendar",
+                                    "on time",
+                                    "On Time",
+                                    "OnTime Group Calendar",
+                                    "On Time Group Calendar"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kudos By ISW",
+                                "synonyms": [
+                                    "kudos"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AppFusions",
+                                "synonyms": [
+                                    "app fusions",
+                                    "App Fusions"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IBM",
+                                "synonyms": [
+                                    "I B M"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Panagenda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Red Pill Now",
+                                "synonyms": [
+                                    "RedPill Development",
+                                    "RedPill Now",
+                                    "RedPill",
+                                    "Red Pill Development",
+                                    "Red Pill"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"target": "es5",
+		"lib": [
+			"dom",
+			"es6",
+			"dom.iterable",
+			"scripthost"
+		],
+		"noImplicitAny": false,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"listFiles": true,
+		"noEmitOnError": true,
+		"typeRoots": [
+			"node_modules/@types"
+		]
+	},
+	"include": [
+		"src/**/*.ts",
+		"node_modules/ask-*/**/*.d.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
