@@ -79,6 +79,7 @@ const SessionsRequestInterceptor = {
 				let slotVal = multiSlotVals ? {SessionName: slotVals['SessionName'][0]} : slotVals;
 				return DataHelper.findSessions(slotVal)
 					.then((response) => {
+						console.log('SessionsRequestInterceptor, response=', response);
 						if (utils.isResponseValid(response)) {
 							sessAttrs.foundSessions = response;
 							if (multiSlotVals) {
@@ -106,7 +107,8 @@ const SessionsIntentHandler: rpTypes.IntentHandler = {
 		let foundSessions = sessAttrs.foundSessions;
 		let currSessResp: rpTypes.TextResponse = null;
 		let speechTxt = null;
-		if (foundSessions) {
+		if (foundSessions && foundSessions.length > 0) {
+			console.log('SessionsIntentHandler, foundSessions=', foundSessions);
 			currSessResp = ResponseGenerator.getSessionsResp(foundSessions, -1);
 			speechTxt = currSessResp.textContent.primaryText.text;
 			sessAttrs.speechOutput = speechTxt;

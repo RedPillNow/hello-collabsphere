@@ -10,35 +10,12 @@ export enum RequestType {
 export class DataHelper {
 
 	static fields: rpTypes.FirestoreQueryField[] = [
-		{'fieldPath': 'session_title'},
-		{'fieldPath': 'session_date'},
-		{'fieldPath': 'session_time1'},
-		{'fieldPath': 'session_room'},
-		{'fieldPath': '`$37`'},
-		{'fieldPath': 'speaker_name'},
-		{'fieldPath': 'speaker_org'},
-		{'fieldPath': 'speaker_photourl'},
-		{'fieldPath': 'speaker_logo'},
-		{'fieldPath': 'speaker_profile'},
-		{'fieldPath': 'speaker_name2'},
-		{'fieldPath': 'speaker_org2'},
-		{'fieldPath': 'speaker_photourl2'},
-		{'fieldPath': 'speaker_logo2'},
-		{'fieldPath': 'speaker_profile2'},
-		{'fieldPath': 'speaker_name3'},
-		{'fieldPath': 'speaker_org3'},
-		{'fieldPath': 'speaker_photourl3'},
-		{'fieldPath': 'speaker_logo3'},
-		{'fieldPath': 'speaker_profile3'},
-		{'fieldPath': 'speaker_name4'},
-		{'fieldPath': 'speaker_org4'},
-		{'fieldPath': 'speaker_photourl4'},
-		{'fieldPath': 'speaker_logo4'},
-		{'fieldPath': 'speaker_profile4'},
-		{'fieldPath': 'speaker_name5'},
-		{'fieldPath': 'speaker_photourl5'},
-		{'fieldPath': 'speaker_logo5'},
-		{'fieldPath': 'speaker_profile5'}
+		{'fieldPath': 'AbstractTitle'},
+		{'fieldPath': 'StartDate'},
+		{'fieldPath': 'StartTime'},
+		{'fieldPath': 'SessionRoom'},
+		{'fieldPath': 'Speaker1'},
+		{'fieldPath': 'Speaker2'}
 	];
 
 	static fetchAllSessionsData() {
@@ -61,7 +38,7 @@ export class DataHelper {
 	 * @returns {Session[]}
 	 */
 	static findSessions(slots: any): Promise<any> {
-		console.log('ResponseGenerator.findSessions, slots=', slots);
+		console.log('DataHelper.findSessions, slots=', slots);
 		let opts = this.getRequestOptions();
 		if (slots) {
 			if (slots['AMAZON.Person']) {
@@ -80,9 +57,8 @@ export class DataHelper {
 				let org = slots['AMAZON.Organization'];
 				opts.body = DataHelper.getQueryParams(RequestType.ByOrg, org);
 			}
-			console.log('ResponseGenerator.findSessions, body=', JSON.stringify(opts.body));
 		} else {
-			let now = new Date() < new Date('7/23/2018') || new Date() > new Date('7/25/2018') ? new Date('7/24/2018') : new Date();
+			let now = new Date() < new Date('7/23/2018') || new Date() > new Date('7/25/2018') ? new Date('7/23/2018') : new Date();
 			let mom = moment(now);
 			let dateOnlyValue = mom.format('YYYYMMDD');
 			let nearestQuarter = utils.getNearestQuarterHour();
@@ -90,6 +66,7 @@ export class DataHelper {
 			let startTimeValue = mom.format('kk:mm');
 			opts.body = DataHelper.getQueryParams(RequestType.ByTime, startTimeValue);
 		}
+		console.log('DataHelper.findSessions, body=', JSON.stringify(opts.body));
 		return utils.doRequest(opts);
 	}
 	/**
@@ -124,10 +101,10 @@ export class DataHelper {
 	 */
 	static getCompositeFilters(requestType: RequestType, searchValue): any[] {
 		let compFilters = [];
-		let now = new Date() < new Date('7/23/2018') || new Date() > new Date('7/25/2018') ? new Date('7/24/2018') : new Date();
+		let now = new Date() < new Date('7/23/2018') || new Date() > new Date('7/25/2018') ? new Date('7/23/2018') : new Date();
 		switch (+requestType) {
 			case RequestType.ByRoom:
-				console.log('DataHelper.getCompositeFilters, by room');
+				console.log('DataHelper.getCompositeFilters, by room', searchValue);
 				compFilters.push({
 					fieldFilter: {
 						field: {fieldPath: 'SessionRoom'},
@@ -138,7 +115,7 @@ export class DataHelper {
 				compFilters = compFilters.concat(this.getFilterRestraint(now));
 				break;
 			case RequestType.BySpeaker:
-				console.log('DataHelper.getCompositeFilters, by speaker');
+				console.log('DataHelper.getCompositeFilters, by speaker', searchValue);
 				compFilters.push({
 					fieldFilter: {
 						field: {fieldPath: 'Speaker1'},
@@ -151,7 +128,7 @@ export class DataHelper {
 				compFilters[1].fieldFilter.op = 'GREATER_THAN_OR_EQUAL';
 				break;
 			case RequestType.ByTime:
-				console.log('DataHelper.getCompositeFilters, by time');
+				console.log('DataHelper.getCompositeFilters, by time', now);
 				let mom = moment(now);
 				mom.minute(mom.minute() + 60);
 				let untilTimeValue = mom.format('kk:mm');
@@ -163,7 +140,7 @@ export class DataHelper {
 				}});
 				break;
 			case RequestType.ByOrg:
-				console.log('DataHelper.getCompositeFilters, by org');
+				console.log('DataHelper.getCompositeFilters, by org', searchValue);
 				compFilters.push({
 					fieldFilter: {
 						field: {fieldPath: 'speaker_org'},
@@ -174,7 +151,7 @@ export class DataHelper {
 				compFilters = compFilters.concat(this.getFilterRestraint(now));
 				break;
 			case RequestType.BySession:
-				console.log('DataHelper.getCompositeFilters, by sessionName');
+				console.log('DataHelper.getCompositeFilters, by sessionName', searchValue);
 				compFilters.push({
 					fieldFilter: {
 						field: {fieldPath: 'AbstractTitle'},
@@ -193,9 +170,11 @@ export class DataHelper {
 	 * @returns {any[]}
 	 */
 	static getFilterRestraint(now): any[] {
+		console.log('DataHelper.getFilterRestraint, args=', arguments);
 		let mom = moment(now);
 		let dateOnlyValue = mom.format('YYYYMMDD');
 		if (mom.hour() > 0 && mom.hour() < 8) {
+			let newHour = mom.hour() + 12 >= 24 ? 0 : mom.hour() + 12;
 			mom.hour(mom.hour() + 12);
 		}
 		let startTimeValue = mom.format('kk:mm');

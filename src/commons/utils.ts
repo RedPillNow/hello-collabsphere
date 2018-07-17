@@ -17,6 +17,7 @@ export function doRequest(options: rpTypes.XhrOptions): Promise<any> {
 		options.headers.Authorization = 'Basic a2VpdGggc3RyaWNrbGFuZDp0ZXN0MTIz';
 		options.headers['User-Agent'] = options.headers['User-Agent'] ? options.headers['User-Agent'] : 'Request-Promise';
 	}
+	console.log('Utils.doRequest options=', options);
 	return rp(options);
 }
 /**
@@ -110,6 +111,7 @@ export function getNearestQuarterHour(): number {
  * @param {string} refDate a reference date (i.e. what session date should we mimick)
  */
 export function getSpokenDateText(dateTimeStr, refDate?) {
+	// console.log('Utils.getSpokenDateText, args=', arguments);
 	let evtMoment: moment.Moment = moment(dateTimeStr);
 	let evtCal = evtMoment.calendar();
 	if (refDate) {
@@ -118,7 +120,9 @@ export function getSpokenDateText(dateTimeStr, refDate?) {
 	let dateTimeArr = evtCal.split(' ');
 	dateTimeArr.splice(2, 0, '<say-as interpret-as="time">');
 	dateTimeArr.push('</say-as>');
+	// console.log('Utils.getSpokenDateText, dateTimeArr=', dateTimeArr);
 	let dateTimeText = dateTimeArr.join(' ');
+	// console.log('Utils.getSpokenDateText, dateTimeText=', dateTimeText);
 	return dateTimeText;
 }
 /**
@@ -135,29 +139,4 @@ export function getPrintedDateText(dateTimeStr, refDate?) {
 	let dateTimeArr = evtCal.split(' ');
 	let dateTimeText = dateTimeArr.join(' ');
 	return dateTimeText;
-}
-/**
- * Determine which deck the roomName is on
- * @param roomName The value from the room name slot
- */
-export function getDeck(roomName: string): string {
-	let deck = null;
-	if (roomName) {
-		if (roomName === 'A. Theatre') {
-			deck = 'Promenade Deck';
-		}else if (roomName === 'B. Guadaloupe') {
-			deck = 'Main Deck';
-		}else if (roomName === 'C. Trinidad') {
-			deck = 'Main Deck';
-		}else if (roomName === 'D. Sun Room') {
-			deck = 'Sun Deck';
-		} else if (roomName === 'E. Sky Room') {
-			deck = 'Bridge Deck';
-		}else if (roomName === 'Table 1 Vancouver') {
-			deck = 'Main Deck';
-		}else if (roomName === 'Table 2 Honolulu') {
-			deck = 'Main Deck';
-		}
-	}
-	return deck;
 }

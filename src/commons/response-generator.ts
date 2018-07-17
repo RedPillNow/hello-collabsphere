@@ -1,14 +1,13 @@
 import * as Alexa from 'ask-sdk-core';
 import * as rpTypes from './types';
 import {Session} from '../models/session';
-import * as utils from './utils';
 
 export class ResponseGenerator {
 
 	static get launchResponse(): rpTypes.TextResponse {
 		return {
 			textContent: new Alexa.PlainTextContentHelper()
-				.withPrimaryText('Welcome to Hello Engage, Ask me to find sessions for Engage 2018')
+				.withPrimaryText('Welcome to Hello Collabsphere. Ask me to find sessions for Collabsphere 2018.')
 				.getTextContent(),
 			cardTitle: 'Welcome to Hello Engage'
 		};
@@ -16,13 +15,10 @@ export class ResponseGenerator {
 
 	static get generalGreetingResponse(): rpTypes.TextResponse {
 		const greetingArr = [
-			'Hello, Thank you for trying "Hello Engage" from Red Pill Now.',
-			'Hi, Welcome to Engage 2018. Enjoy the conference',
-			'Howdy! This is "Hello Engage"! I can help you find sessions to attend, give me a try.',
-			'Hola! ¡Esto es hola participar! Disfruta la conferencia',
-			'Hej! Dette er hej engagere! Nyd konferencen',
-			'Bu merhaba meşgul! Konferansın tadını çıkar',
-			'Hallå! Detta är hej engagera! Njut av konferensen'
+			'Hello, Thank you for trying "Hello Collabsphere" from Red Pill Now.',
+			'Hi, Welcome to Collabsphere 2018. Enjoy the conference',
+			'Howdy! This is "Hello Collabsphere"! I can help you find sessions to attend, give me a try.',
+			'Hola! ¡Esto es hola participar! Disfruta la conferencia'
 		]
 		let msg = greetingArr[Math.floor(Math.random() * greetingArr.length)];
 		return {
@@ -36,7 +32,7 @@ export class ResponseGenerator {
 	static get cancelStopResponse(): rpTypes.TextResponse {
 		return {
 			textContent: new Alexa.PlainTextContentHelper()
-				.withPrimaryText('Goodbye! Thank you for trying "Hello Engage"')
+				.withPrimaryText('Goodbye! Thank you for trying "Hello Collabsphere"')
 				.getTextContent(),
 			cardTitle: 'Thank you, Goodbye!'
 		};
@@ -45,7 +41,7 @@ export class ResponseGenerator {
 	static get helpResponse(): rpTypes.TextResponse {
 		return {
 			textContent: new Alexa.PlainTextContentHelper()
-				.withPrimaryText('Ask me to find sessions by time, person or room name.')
+				.withPrimaryText('Ask me to find sessions by time, date or speaker.')
 				.withSecondaryText('For Example: get sessions by Jason Gary.')
 				.withTertiaryText('Get today\'s sessions')
 				.getTextContent(),
@@ -77,19 +73,23 @@ export class ResponseGenerator {
 				sess = foundSessions[nextIdx];
 			}else {
 				// console.log('ResponseGenerator.getSessionsResp, create a Session');
-				let apiObj = foundSessions[nextIdx]._apiObj ? foundSessions[nextIdx]._apiObj : foundSessions[nextIdx];
+				let apiObj = foundSessions && foundSessions[nextIdx]._apiObj ? foundSessions[nextIdx]._apiObj : foundSessions[nextIdx];
+				// console.log('ResponseGenerator.getSessionsResp, apiObj=', apiObj);
 				sess = new Session(apiObj);
 			}
+			// console.log('ResponseGenerator.getSessionsResp, sess=', sess);
 			let spokenText = sess.spokenTitle;
 			spokenText += ' by ' + sess.spokenSpeakers;
 			spokenText += ', in the ' + sess.spokenRoom;
 			spokenText += ', ' + sess.spokenDate + '.';
 			spokenText += ' Is this the one you\'re looking for?';
+			// console.log('ResponseGenerator.getSessionsResp, spokenText=', spokenText);
 			let cardText = sess.sessionTitle;
 			cardText += ' by ' + sess.spokenSpeakers;
 			cardText += ', in the ' + sess.sessionRoom;
 			cardText += ', ' + sess.cardDate + '.';
 			cardText += ' Is this the one you\'re looking for?';
+			// console.log('ResponseGenerator.getSessionsResp, cardText=', cardText);
 			let resp = {
 				textContent: new Alexa.PlainTextContentHelper()
 					.withPrimaryText(spokenText)
@@ -128,28 +128,4 @@ export class ResponseGenerator {
 			cardText: 'I didn\'t understand what you said. Please try again.'
 		};
 	}
-
-	static getDeckResponse(roomName: string): rpTypes.TextResponse {
-		let deck = utils.getDeck(roomName);
-		let txt = null;
-		if (!deck) {
-			txt = '<emphasis level="strong">hmmm</emphasis>, I don\'t know that room, please try again';
-		}else {
-			let spokenRoom = roomName;
-			if (roomName.toLowerCase().indexOf('room') === -1) {
-				if (roomName.toLowerCase().indexOf('theater') === -1) {
-					spokenRoom = roomName + ' room ';
-				}
-			}
-			txt = 'The ' + spokenRoom + ' is located on the ' + deck;
-		}
-		return {
-			textContent: new Alexa.PlainTextContentHelper()
-				.withPrimaryText(txt)
-				.getTextContent(),
-			cardTitle: deck,
-			cardText: txt
-		};
-	}
-
 }

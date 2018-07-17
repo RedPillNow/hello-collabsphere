@@ -13,7 +13,7 @@ export class Session {
 	private _session_abstract: string; // $37
 	private _session_speakers: Speaker[];
 	private _session_subtype: string; // $36
-	private refDate: Date = new Date() < new Date('7/23/2018') || new Date() > new Date('7/25/2018') ? new Date('7/24/2018') : new Date();
+	private refDate: Date = new Date() < new Date('7/23/2018') || new Date() > new Date('7/25/2018') ? new Date('7/23/2018') : new Date();
 	private _deck: string;
 
 	constructor(apiObj) {
@@ -56,7 +56,7 @@ export class Session {
 			let dateTimeStr = this.apiObj.document.fields.StartDate.stringValue;
 			let time = this.sessionTime;
 			let unformatTime = time.replace(':','');
-			dateTimeStr = dateTimeStr + 'T' + unformatTime;
+			dateTimeStr = unformatTime.indexOf('T') === -1 ? dateTimeStr + 'T' + unformatTime : dateTimeStr + unformatTime;
 			dateTimeStr = utils.getSpokenDateText(dateTimeStr, this.refDate);
 			dateTimeStr = dateTimeStr.replace(' </say-as>', '</say-as>'); // Get rid of the space
 			dateTimeStr = dateTimeStr.replace('"time"> ', '"time">'); // Get rid of the space
@@ -147,8 +147,8 @@ export class Session {
 	}
 
 	get sessionTitle() {
-		if (!this._session_title && this.apiObj && this.apiObj.document.fieldsAbstractTitle) {
-			this._session_title = this.apiObj.document.fieldsAbstractTitle.stringValue;
+		if (!this._session_title && this.apiObj && this.apiObj.document.fields.AbstractTitle) {
+			this._session_title = this.apiObj.document.fields.AbstractTitle.stringValue;
 		}
 		return this._session_title;
 	}
@@ -167,7 +167,7 @@ export class Session {
 
 	get spokenTitle() {
 		let spokenTitle = this.sessionTitle;
-		if (this.sessionTitle.indexOf('(') > -1 && this.sessionTitle.indexOf(')') > -1) {
+		if (spokenTitle && spokenTitle.indexOf('(') > -1 && spokenTitle.indexOf(')') > -1) {
 			let regex = /^(?:[\w 0-9-_=&]*)(\(([\w 0-9-_=&]*)\))(?:[\w 0-9-_=&]*)$/;
 			let results = spokenTitle.match(regex);
 			if (results && results.length > 0) {
@@ -176,7 +176,7 @@ export class Session {
 				spokenTitle = spokenTitle.replace(replaceStr, replaceTxt);
 			}
 		}
-		if (this.sessionTitle.indexOf('"') > -1) {
+		if (spokenTitle && spokenTitle.indexOf('"') > -1) {
 			let regex = /^(?:[\w 0-9-_=&]*)("([\w 0-9-_=&]*)")(?:[\w 0-9-_=&]*)$/;
 			let results = spokenTitle.match(regex);
 			if (results && results.length > 0) {
